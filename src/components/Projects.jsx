@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import img1 from "../assets/images/project-img1.png";
-import img2 from "../assets/images/project-img2.png";
-import img3 from "../assets/images/project-img3.png";
+import img1 from "../assets/images/portfolioprojectimg.png";
+import img2 from "../assets/images/youtubecloneimg.png";
+import img3 from "../assets/images/project-img1.png";
 
 import "../styles.css";
 import ProjectCard from "./ProjectCard";
@@ -12,7 +12,7 @@ function Projects() {
   const projects = [
     {
       id: 1,
-      title: "Business Startup",
+      title: "Portfolio Website",
       description: "Design & Development",
       img: img1,
     },
